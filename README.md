@@ -2,7 +2,7 @@
  Online webshop
 
  # Description
- This project was one of my projects in Codeacademy and I've created a fictional tea shop website on my own computer.
+ This project was one of my projects in Codeacademy and I've created a fictional product website on my own computer.
 
  # Tools
 
