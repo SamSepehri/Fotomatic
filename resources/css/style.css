@@ -40,17 +40,17 @@ html {
 
 header {
   position: fixed;
-  width: 100%;
   z-index: 100;
+  width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-
 }
 
 header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+
 }
 
 header .logo {
@@ -126,8 +126,8 @@ header .mobile {
   header .mobile li {
     padding: 0;
   }
-
 }
+
 
 /* Sign Up Section */
 
@@ -136,7 +136,7 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-image: url("../images/banner-landingpage.jpg");
+  background-image: url('../images/banner-landingpage.jpg');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -260,7 +260,6 @@ header .mobile {
 }
 
 .feature h2 {
-  margin-top: 40px;
   padding-bottom: .5rem;
   font-size: 2.25rem;
   font-weight: bold;
@@ -294,6 +293,7 @@ header .mobile {
     line-height: 1.4;
   }
 }
+
 
 @media only screen and (max-width: 600px) {
   #features-section {
@@ -380,9 +380,9 @@ header .mobile {
 
 #quotes-section .content {
   display: flex;
-  padding: 5rem 1.5rem;
   align-items: center;
   justify-content: center;
+  padding: 5rem 1.5rem;
 }
 
 #quotes-section .quote {
@@ -398,7 +398,7 @@ header .mobile {
   height: 1.875rem;
 }
 
-@media only screen and (max-width:895px) {
+@media only screen and (max-width: 895px) {
   #quotes-section .content {
     padding: 3rem 1.5rem;
   }
@@ -439,7 +439,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   footer .content {
     font-size: .625rem;
   }
